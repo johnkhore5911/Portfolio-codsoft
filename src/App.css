@@ -1,0 +1,1030 @@
+/* write your css here */
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background: #0C1427;;
+}
+.content{
+
+    width: 80%;
+    min-height: 100%;
+    justify-content: center;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    color: #ABB2BF;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    background: #282C33;
+    border-radius: 30px;
+    top: 20px;
+    padding: 0 40px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.headerLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerRight{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.home{
+    padding: 10px 1.5rem;
+    
+    cursor: pointer;
+}
+.logo{
+    cursor: pointer;
+}
+.Name{
+    cursor: pointer;
+    color: #F4F4F4;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.line{
+    /* height: 2px; */
+    background: #000;
+    width: 99%;
+    margin: auto;
+    position: relative;
+    top: 90px;
+}
+.linex1{
+    height: 2px;
+    background: #000;
+    width: 99%;
+    margin: auto;
+    position: relative;
+    top: 90px;
+}
+
+
+.sectionOne{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mypic{
+    width: 35%;
+    height: auto;
+    position: relative;
+    /* background-color: red; */
+
+}
+.pic{
+    position: relative;
+}
+.floatIcon{
+    position: absolute;
+
+}
+.zigzag{
+    top: 0;
+}
+.cross{
+    top: 0;
+    right: 0;
+    color: yellow;
+}
+.cube{
+    bottom: 0;
+    right: 0;
+}
+
+/*  */
+.cross{
+    z-index: 9;
+    /* top: -0.8rem; */
+    /* left: 50%; */
+    animation-name: shakeEffectPlus;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+}
+@keyframes shakeEffectPlus {
+    50%{
+        top: 3%;
+        right: 6%;
+        /* left: 48%; */
+    }
+}
+/*  */
+.circle{
+    /* top: 0; */
+    bottom: 0;
+}
+
+.leftsectionOne{
+    /* width: 35%; */
+    /* margin-top: 200px; */
+    width: 45%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: red; */
+    /* align-items: center; */
+    /* padding: 10px 100px; */
+    /* margin: auto; */
+}
+
+.myself{
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    /* font-size: 16px; */
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: right;
+}
+
+.colorDiff{
+    color: #C778DD;
+    font-family: Fira Code;
+    /* font-size: 16px; */
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.cvDown{
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 12px;
+
+
+    border: 1.139px solid var(--primary, #C778DD);
+    box-shadow: 0px 4.55474px 4.55474px 0px rgba(0, 0, 0, 0.25);
+
+    
+}
+.cvDiv{
+    display: flex;
+    justify-content:end;
+    /* padding: 20px 80px; */
+    /* background-color: red; */
+    width: 100%;
+    padding: 10px;
+    margin-top: 60px;
+}
+.cvDiv1{
+    display: flex;
+    /* justify-content:end; */
+    /* padding: 20px 80px; */
+    /* background-color: red; */
+    width: 100%;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin: auto;
+    margin-right: 4px;
+    gap: 5px;
+}
+
+.margin{
+    margin-bottom: 1rem;
+    margin-top:3rem;
+}
+
+.sectionTwo{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: #0C1427;
+    color: white
+}
+
+.gridSection{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+    align-items: center;
+}
+.skillStyle{
+    color: #FFF;
+    font-family: Fira Code;
+    font-size: 47.094px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29.434px; /* 62.5% */
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+.boxLang{
+    display: flex;
+    width: 203.603px;
+    height: 139.05px;
+    padding: 8px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+    border: 1px solid var(--gray, #ABB2BF);
+    /* margin-left: 10px; */
+}
+
+.LangLine{
+    width: 203.603px;
+    height: 1px;
+    background: #ABB2BF;
+}
+.textColor{
+    color: #ABB2BF;
+}
+
+.sectionThird{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0C1427;
+    color: white
+
+}
+
+
+.skillStyle1{
+    color: #FFF;
+    font-family: Fira Code;
+    /* font-size: 47.094px; */
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29.434px; /* 62.5% */
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+}
+
+.gridItems{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 90%;
+    height: 75%;
+    margin: auto;
+    gap: 10px;
+
+}
+.home:hover{
+    color: white;
+    opacity: .8;
+}
+.textarea{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.box1{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 16px; */
+    align-self: stretch;
+
+    /* background: red; */
+    /* padding: 10px; */
+    border: 1px solid var(--primary, #0C1427);
+
+    
+    
+    
+}
+*{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.myntraclone{
+    width: 330.579px;
+    height: 201px;
+    flex-shrink: 0;
+}
+.cube{
+    z-index: 9;
+    /* top:-0.8em; */
+    /* right: 1rem; */
+    animation-name: cubeRotate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cubeRotate {
+    0%{
+        transform: rotateY(0deg) translateY(0px);
+    }
+    50%{
+        transform: rotateY(180deg) translateY(-12px);
+    }
+    100%{
+        transform: rotate(360deg) translateY(0px);
+    }
+}
+
+.zigzag{
+    z-index: 9;
+    top: 1.5em;
+    left: -0.3em;
+    animation-name: zigzagAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+}
+@keyframes zigzagAnimation {
+    50%{
+        left: 5%;
+        bottom: 10%;
+    }
+}
+/*  */
+.circle{
+    z-index: 9;
+    bottom: 0;
+    left: 0;
+    animation-name: shakeEffect;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes shakeEffect {
+    /* 0%{
+        left: 0;
+        bottom: 0;
+
+    } */
+    50%{
+        left: 5%;
+        bottom: 10%;
+    }
+    /* 100%{
+        left: 0;
+        bottom: 0;    
+    } */
+}
+/*  */
+.borders{
+    border: 1px solid var(--gray, #ABB2BF);
+    width: 80%;
+}
+
+.hideBorderBottom{
+    border-bottom: none;
+}
+
+.padding1{
+    padding: 10px 5px;
+}
+.padding2{
+    padding: 13px 5px;
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.myntraText{
+    color: var(--white, #FFF);
+    font-family: Fira Code;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.myntraText2{
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.myntaText3{
+    color: var(--white, #FFF);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Fira Code;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.pad{
+    padding: 10px 16px 15px 16px;
+}
+
+.sectionFour{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.myabout{
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 60%;
+    margin-top: 7%;
+}
+
+.insideFour{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.sectionFive{
+    width: 100%;
+    height: 100vh;
+    background-color: #0C1427;
+    color: white
+}
+.sectionsixth{
+    width: 100%;
+    /* height: 10vh; */
+    /* background: red; */
+}
+
+
+.Contact{
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(178, 224, 232); */
+    width: 100%;
+    height: 65%;
+    margin: auto;
+    
+}
+
+.ContactLeft{
+    width: 70%;
+    /* background: yellow; */
+    
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.ContactRight{
+    width: 50%;
+    /* background: rgb(25, 163, 52); */
+    display: flex;
+    justify-content: end;
+
+    align-items: center;
+}
+
+.InsideContactLeft{
+    /* padding: 5px 15px; */
+
+    width: 80%;
+    /* width: auto; */
+    height: 481px;
+    flex-shrink: 0;
+    /* background: red; */
+    border-radius: 30px;
+    background: rgba(217, 217, 217, 0.05);
+    
+/* background: rgba(217, 217, 217, 0.05); */
+    display: flex;
+}
+
+.InsideContactRight{
+    display: flex;
+    /* width: 298px; */
+    min-width: 45%;
+    height: 232px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex-shrink: 0;
+    border: 1px solid var(--gray, #ABB2BF);
+
+    /* border: 1px solid var(--gray, #ABB2BF); */
+}
+
+/* 1538 */
+@media only screen and (max-width: 1538px)
+{
+    .ContactRight{
+    justify-content:start;
+
+    }
+}
+/*  */
+
+
+/* 1098 */
+@media only screen and (max-width: 1098px)
+{
+    .ContactRight{
+        justify-content:start;
+    }
+    .contacts1{
+        display: flex;
+        flex-direction: column;
+    }
+    .email1{
+        min-width: 100%;
+    }
+    .name1{
+        min-width: 100%;
+    }
+    .title1{
+        min-width: 100%;
+    }
+    .message1{
+        min-width: 100%;
+    }
+    /* .email1{
+        width: 90%;
+    }
+    .name1{
+        width: 100%;
+    } */
+}
+/*  */
+
+/* 736 */
+@media only screen and (max-width: 736px)
+{
+    .Contact{
+        display: block;
+        width: 100%;
+        margin: auto;
+
+    }
+    .sectionFive{
+        min-height: 100vh;
+    }
+    .ContactLeft{
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+
+    }
+    .ContactRight{
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    
+}
+/*  */
+
+/* 768 */
+@media only screen and (max-width: 768px)
+{
+    .home{
+        padding:5px;
+    }
+    .floatIcon{
+        display: none;
+    }
+    .pic{
+        min-width: 100%;
+    }
+    
+}
+/*  */
+/* 1084 */
+@media only screen and (max-width: 1084px)
+{
+    .width{
+        width: 10%;
+        display: none;
+    }
+    .widths{
+        width: 40%;
+    }
+    .sectionsixth{
+        display: flex;
+        /* width: 100vw; */
+        justify-content: space-around;
+    }
+    
+}
+/*  */
+/* widths */
+@media only screen and (max-width: 692px)
+{
+    .width{
+        width: 10%;
+        display: none;
+    }
+    .widths{
+        width: 40%;
+    }
+    .sectionsixth{
+        display: flex;
+        /* width: 100vw; */
+        justify-content: space-around;
+    }
+    
+}
+/*  */
+/* 1210 */
+@media only screen and (max-width: 1210px)
+{
+    
+    .floatingIcons{
+        display: none;
+    }
+}
+/*  */
+
+/* 1368 */
+@media only screen and (max-width: 1368px)
+{
+    .gridSection{
+        grid-template-columns: auto auto auto;
+    }
+    .Jsimg{
+        margin-top: 10px;
+    }
+}
+/*  */
+/* 832 */
+@media only screen and (max-width: 832px)
+{
+    .gridSection{
+        grid-template-columns: auto auto ;
+    } 
+    .Jsimg{
+        display: none;
+    }
+    .Cppimg{
+        display: none;
+    }
+
+}
+/*  */
+/* 904 */
+@media only screen and (max-width: 904px)
+{
+    .myabout{
+        font-size: 1.5rem;
+    }
+}
+/*  */
+/* 394 */
+@media only screen and (max-width: 394px)
+{
+    .gridSection{
+        grid-template-columns: auto ;
+
+    } 
+    .boxLang{
+        margin: 10px;
+    }
+
+}
+.borders{
+    height: auto;
+}
+/*  */
+/* 706 */
+@media only screen and (max-width: 706px)
+{
+    .myabout{
+        font-size: 1rem;
+        width: 80%;
+    }
+}
+/*  */
+/* 1384 */
+@media only screen and (max-width: 1286px)
+{
+    .myntraText{
+        font-size: 1.1rem;
+    }
+}
+/*  */
+/* 1190 */
+@media only screen and (max-width: 1190px)
+{
+    .gridItems{
+        grid-template-columns: auto auto;
+    }
+}
+/*  */
+/* 660 */
+@media only screen and (max-width: 660px)
+{
+    .gridItems{
+        grid-template-columns: auto ;
+    }
+    .box1{
+        padding: 0;
+    }
+}
+/*  */
+/* 415 */
+@media only screen and (max-width: 415px)
+{
+    .cvDiv1{
+        margin-top: 0;
+    }
+    .skillStyle1{
+        font-size: 2rem;
+    }
+    
+}
+/*  */
+
+/* InsideContactLeft */
+@media only screen and (max-width: 522px)
+{
+    .InsideContactLeft{
+        width: 90%;
+        padding: 0;
+    }
+}
+/*  */
+/* 720 */
+@media only screen and (max-width: 720px)
+{
+    .home{
+        display: none;
+    }
+    .mypic{
+        display: none;
+    }
+    .leftsectionOne{
+        width: 100%;
+    }
+    
+    .headerRight{
+        display: none;
+    }
+    .headerLeft{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .jklogo{
+        /* display: none; */
+    }
+    .header{
+        background: transparent;
+    }
+    .myself{
+        text-align: center;
+    }
+    .Name{
+        font-size: 1.5rem;
+    }
+    .floatIcon{
+        display: none;
+    }
+    
+
+    
+}
+/*  */
+
+.InsideContactLeft{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    padding: 40px;
+}
+.contacts1{
+    display: flex;
+}
+
+.contacts2{
+    display: flex;
+    margin: 10px;
+    gap:10px
+}
+
+input{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+input{
+    /* padding-left: 10px; */
+}
+input[type=text]{
+    margin-left: 100px;
+}
+
+.backborder{
+    background-color: #252C3D;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 700;
+    line-height: 26px;
+    /* width: 100%; */
+}
+.email1{
+    width: 60%;
+    /* max-width: auto; */
+}
+.name1{
+    width: 30%;
+    /* max-width: auto; */
+}
+.message2 input{
+    width: 200px;
+}
+.message2 input{
+}
+
+.contacts1{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.message1{
+    height: 50%;
+}
+
+.padd{
+    padding: 15px 30px;
+    margin: 10px 15px;
+}
+
+.logoRight1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.discordStyle{
+    color: var(--gray, #ABB2BF);
+    font-family: Fira Code;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.margin1{
+    /* margin-top: 10rem; */
+    width: 90%;
+    margin: auto;
+    background-color: red;
+}
+
+
+.width{
+    width: 30%;
+    /* background-color: red; */
+}
+
+.sectionsixth{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    color: #ABB2BF;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: row;
+
+}
+.marginright{
+    /* margin-right: 60px; */
+}
+
+.footer1 {
+    font-size: 12px;
+}
+
+.widths{
+    width: 10%;
+}
+.width1{
+    width: 40%;
+}
+
+.stylecss{
+    padding-left: 10px;
+    font-size: 18px;
+}
+.stylecss1{
+    padding-left: 10px;
+    /* font-size: 18px; */
+}
+
+/* <button className="cvDown">DOWNLOAD CV</button> */
+/* <button className="cvDown">DOWNLOAD CV</button> */
+/* Home */
+
+.hovereffect{
+    cursor: pointer;
+}
+
+
+
+.sectionsixth{
+    /* margin-top: 10rem; */
+    
+}
+a{
+    /* display: none; */
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 504 */
+@media only screen and (max-width: 504px)
+{
+    .gridSection{
+        grid-template-columns: auto;
+    }
+}
+
+/*  */
+
+/* *{
+    overflow-x: hidden;
+    height: max-content;
+
+}
+div{
+
+}
+
+.skillStyle{
+    overflow-y:none;
+} */
+@media only screen and (max-width:418px)
+{
+    .wrapper{
+        overflow: hidden;
+    }
+    .sectionsixth{
+        display: none;
+    }
+    
+}
+
+.textupper{
+    text-transform: uppercase;
+}
